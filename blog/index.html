@@ -1,58 +1,184 @@
-<!doctype html>
-<meta charset="utf-8">
-<link rel="stylesheet" href="../static/style.css">
-<title> — IBNA</title>
-<body>
-  <header>
-    <h1>IBNA</h1>
-    <nav>
-      <ul class="nav navbar-nav">
-        <li><a href="../">Welcome</a></li>
-        
-          <li class="active"><a href="../blog/">Blog</a></li>
-        
-          <li><a href="../projects/">Projects</a></li>
-        
-          <li><a href="../about/">About</a></li>
-        
-      </ul>
-    </nav>
-  </header>
-  <div class="page">
-    
-  
-    
-  <div class="blog-post">
-  
-    <h2><a href="../blog/first-post/">Hello Website</a></h2>
-  
-  <p class="meta">
-    written by
-    
-      IBNA
-    
-    on 2016-12-04
-  </p>
-  <p>This is an example blog post.  Not much here but that's not the point :)</p>
+<!DOCTYPE html>
+<html>
+        <head>
+                <meta charset="utf-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+                <meta name="theme-color" content="#2196F3">
+                <title>IBNA</title>
 
-  </div>
+                <!-- CSS  -->
+                <link href="../static/min/plugin-min.css" type="text/css" rel="stylesheet">
+                <link href="../static/min/custom-min.css" type="text/css" rel="stylesheet" >
+        </head>
+                <body id="top" class="scrollspy">
 
-  
+                        <!-- Pre Loader -->
+                        <div id="loader-wrapper">
+                                <div id="loader"></div>
 
-  
-  <div class="pagination">
-    
-      <span class="disabled">&laquo; Previous</span>
-    
-    | 1 |
-    
-      <span class="disabled">Next &raquo;</span>
-    
-  </div>
+                                <div class="loader-section section-left"></div>
+                                <div class="loader-section section-right"></div>
+
+                        </div>
+
+                        <!--Navigation-->
+                        <div class="navbar-fixed">
+                                <nav id="nav_f" class="default_color" role="navigation">
+                                        <div class="container">
+                                                <div class="nav-wrapper">
+                                                        <a href="#" id="logo-container" class="brand-logo">Igreja Batista Nova América</a>
+                                                        <!--
+                                                        <ul class="right hide-on-med-and-down">
+                                                                <li><a href="#intro">Service</a></li>
+                                                                <li><a href="#work">Work</a></li>
+                                                                <li><a href="#team">Team</a></li>
+                                                                <li><a href="#contact">Contact</a></li>
+                                                        </ul>
+                                                        <ul id="nav-mobile" class="side-nav">
+                                                                <li><a href="#intro">Service</a></li>
+                                                                <li><a href="#work">Work</a></li>
+                                                                <li><a href="#team">Team</a></li>
+                                                                <li><a href="#contact">Contact</a></li>
+                                                        </ul>
+                                                        <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+                                                        -->
+                                                </div>
+                                        </div>
+                                </nav>
+                        </div>
+
+                        <!--Hero-->
+                        <div class="section no-pad-bot" id="index-banner">
+                                <div class="container">
+                                        <h1 class="text_h center header cd-headline letters type">
+                                                <span class="cd-words-wrapper waiting">
+                                                        <b class="is-visible">“Mas graças a Deus que nos dá a vitória por intermédio de nosso Senhor e Salvador Jesus Cristo”.</b>
+                                                        <b>I Cor 15.57</b>
+                                                </span>
+                                        </h1>
+                                </div>
+                        </div>
+
+                        <!--Intro and service-->
+                        <div id="intro" class="section scrollspy">
+                                <div class="container">
+                                        <div class="row">
+                                                <div  class="col s12">
+                                                        <h2 class="center header text_h2"> Culto Vespertino. <span class="span_h2"> 19:15</span></h2>
+                                                </div>
+
+                                                <div  class="col s12 m4 l4">
+                                                        <div class="center promo promo-example">
+                                                                <a href="static/boletins/boletim-06-11-2016.doc">
+                                                                <i class="mdi-image-flash-on"></i>
+                                                                <h5 class="promo-caption">Leia o boletim</h5>
+                                                                <p class="light center">06 Novembro de 2016.</p>
+                                                                </a>
+                                                        </div>
+                                                </div>
+                                                <div class="col s12 m4 l4">
+                                                        <div class="center promo promo-example">
+                                                                <i class="mdi-social-group"></i>
+                                                                <h5 class="promo-caption">Apresentação de Bebê</h5>
+                                                                <p class="light center"> </p>
+                                                        </div>
+                                                </div>
+                                                <div class="col s12 m4 l4">
+                                                        <div class="center promo promo-example">
+                                                                <i class="mdi-hardware-desktop-windows"></i>
+                                                                <h5 class="promo-caption">Batismos e Ceia à Noite</h5>
+                                                                <p class="light center"> </p>
+                                                        </div>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+
+                        <!--Work-->
+                        <div class="section scrollspy" id="work">
+                                <div class="container">
+                                        <h2 class="header text_b">Localização </h2>
+                                        <div class="row">
+                                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d386.4000415809418!2d-43.27614584811481!3d-22.87359793663865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997c6a5c93f795%3A0x18a533e71e3217b3!2sIgreja+Batista+Nova+Am%C3%A9rica!5e0!3m2!1spt-BR!2sbr!4v1480865886732" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                                        </div>
+                                </div>
+                        </div>
+
+                        <!--Parallax-->
+                        <div class="parallax-container">
+                                <div class="parallax"><img src="../static/img/parallax1.png"></div>
+                        </div>
+
+                        <!--Team-->
+                        <div class="section scrollspy" id="team">
+                                <div class="container">
+                                        <h2 class="header text_b"> Equipe Pastoral</h2>
+                                        <div class="row">
+                                                <div class="col s12 m3">
+                                                        <div class="card card-avatar">
+                                                                <div class="waves-effect waves-block waves-light">
+                                                                        <!--<img class="activator" src="/static/img/avatar1.png">-->
+                                                                </div>
+                                                                <div class="card-content">
+                                                                        <span class="card-title activator grey-text text-darken-4">Moizes de Oliveira<br/>
+                                                                                <small><em><a class="red-text text-darken-1" href="#">Pastor</a></em></small></span>
+                                                                        <p>
+                                                                        <!--
+                                                                        <a class="blue-text text-lighten-2" href="https://www.facebook.com/joash.c.pereira">
+                                                                                <i class="fa fa-facebook-square"></i>
+                                                                        </a>
+                                                                        <a class="blue-text text-lighten-2" href="https://twitter.com/im_joash">
+                                                                                <i class="fa fa-twitter-square"></i>
+                                                                        </a>
+                                                                        <a class="blue-text text-lighten-2" href="https://plus.google.com/u/0/+JoashPereira">
+                                                                                <i class="fa fa-google-plus-square"></i>
+                                                                        </a>
+                                                                        <a class="blue-text text-lighten-2" href="https://www.linkedin.com/in/joashp">
+                                                                                <i class="fa fa-linkedin-square"></i>
+                                                                        </a>
+                                                                        </p>
+                                                                        -->
+                                                                </div>
+                                                        </div>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+
+                        <!--Footer-->
+                        <footer id="contact" class="page-footer default_color scrollspy">
+                                <div class="container">  
+                                        <div class="row">
+                                                        <form class="col s12" action="contact.php" method="post">
+                                                                <div class="row">
+                                                                        <div class="col l3 s12">
+                                                                                <h5 class="white-text">Endereço</h5>
+                                                                                <p itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                                                                                        <span itemprop="streetAddress">Estrada Adhemar Bebiano, 1640 – </span>
+                                                                                        <span itemprop="addressLocality"> Rio de Janeiro, Del Castilho</span>
+                                                                                </p>
+                                                                        </div>
+                                                                        <div class="col l3 s12">
+                                                                                <h5 class="white-text">Pastor</h5>
+                                                                                <p>Pastor Moizes de Oliveira – OPBB 7360</p>
+                                                                                <!--<p>Tel. ****** – Cel. ***** -</p>
+                                                                                <p>e-mail:***** @gmail.com</p>-->
+                                                                        </div>
+                                                                </div>
+                                                        </form>
+                                        </div>
+                                </div>
+                                </div>
+                                <div class="footer-copyright default_color">
+                                        <div class="container">
+                                                Made by <a class="white-text" href="http://www.guidopercu.com.br">Guido Percú</a>. Thanks to <a class="white-text" href="http://materializecss.com/">materializecss</a>
+                                        </div>
+                                </div>
+                        </footer>
 
 
-  </div>
-  <footer>
-    &copy; Copyright 2016 by IBNA.
-  </footer>
-</body>
+                        <!--  Scripts-->
+                        <script src="../static/min/plugin-min.js"></script>
+                        <script src="../static/min/custom-min.js"></script>
+                </body>
+</html>
